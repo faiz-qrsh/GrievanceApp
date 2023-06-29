@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/bgComplaintBox"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textStyle="bold"
+            android:text="C208954001"
+            android:textColor="@color/boxText"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/complaintId"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ragging"
+            android:textColor="@color/boxText"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/complaintType"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fetchStatusBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:tint="@color/boxText"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970270192400",
+    "project_id": "srms-grievance-app",
+    "storage_bucket": "srms-grievance-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970270192400:android:3e00734aa6e7dd51ac2b95",
+        "android_client_info": {
+          "package_name": "com.example.grievancecell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970270192400-vlqe8p0dhoiip0p0305o2l8h1ns1vorq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS_h1n3JI5kE3Li1ITKZfaPiROYMk0rBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970270192400-vlqe8p0dhoiip0p0305o2l8h1ns1vorq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

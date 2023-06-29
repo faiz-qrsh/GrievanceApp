@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Grievance Cell</string>
+    <string name="grievance_icon">Grievance Icon</string>
+    <string name="page1_image">page1_image</string>
+    <string name="enter_the_complaint_id">Enter the Complaint Id :</string>
+    <string name="enter_complaint_id">Enter the Complaint Id :</string>
+    <string name="check">Check</string>
+    <string name="complaint_id">Enter the Complaint Id :</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
